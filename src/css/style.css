@@ -2,10 +2,20 @@
 {
     border: 2px solid black;
     border-radius: 5px;
+    /* display: flex; */
+    text-align: center;
 }
 
 .mainquote
 {
     text-align: center;
     font-size: 75px;
+    color: blue;
+}
+
+.sociallist
+{
+    color: #FF6200;
+    list-style-type: none;
+    margin: 5px auto;
 }
