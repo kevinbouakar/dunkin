@@ -1,0 +1,43 @@
+@font-face 
+{
+    font-family: Dunkin;
+    src: url(/assets/font/Dunkin.otf);
+}
+
+body
+{
+    background-image: url(/);
+}
+.navbar 
+{
+    /* border: 2px solid black; */
+    border-radius: 5px;
+    /* display: flex; */
+    text-align: center;
+}
+
+.mainquote
+{
+    text-align: center;
+    font-size: 75px;
+    color: blue;
+}
+
+.sociallist
+{
+    color: #FF6200;
+    list-style-type: none;
+    margin: 5px auto;
+}
+address
+{
+    text-align: right;
+}
+
+.logov2
+{
+    /* position: absolute; */
+    /* right: 50px;  */
+    float: right;
+    /** When you add more pixels it comes closer to the center!! */
+}
