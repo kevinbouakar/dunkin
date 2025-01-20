@@ -4,10 +4,32 @@
     src: url(/assets/font/Dunkin.otf);
 }
 
+/* 
+Orange: #FF6200 
+Pink: #FF006B
+Brown: #4D2308
+*/
+.DunkinLogo_V1
+{
+    margin-right: 100px ;
+    float: right
+}
+html
+{
+    background-image: url(/assets/images/background.png);
+}
 body
 {
-    background-image: url(/);
+    background-color: white;
 }
+hr
+{
+    margin-left: 50px;
+    margin-right: 50px;
+    border-width: 100px solid black;
+    color: #FF006B;
+}
+
 .navbar 
 {
     /* border: 2px solid black; */
@@ -19,8 +41,8 @@ body
 .mainquote
 {
     text-align: center;
-    font-size: 75px;
-    color: blue;
+    font-size: 50px;
+    color: #FF006B;
 }
 
 .sociallist
@@ -39,5 +61,12 @@ address
     /* position: absolute; */
     /* right: 50px;  */
     float: right;
+    margin: 40px;
     /** When you add more pixels it comes closer to the center!! */
+}
+.nav-bar
+{
+    margin-left: 50px;
+    margin-bottom: 50px;
+
 }
