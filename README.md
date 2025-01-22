@@ -2,6 +2,11 @@
 
 This website is a graded project requested by my university doctor. It will serve as experience and as a project to look back in the near future.
 
-# References
+# Ressources Used
 
-Some of the information used in this repository are from the official [Dunkin Leb](https://ddlebanon.com) website.
+Some of the information and content used in this repository are from the following webpages:
+
+- [Dunkin Leb](https://ddlebanon.com).
+- [Dunkin' Official](https://dunkindonuts.com/).
+- [Boostrap](https://getbootstrap.com/).s
+- [Nerdfonts Icons](https://nerdfonts.com).
