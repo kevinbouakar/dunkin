@@ -1,13 +1,28 @@
+@font-face 
+{
+    font-family: Dunkin;
+    src: url(/assets/font/Dunkin.otf);
+}
+
 html
 {
     background-image: url(/assets/images/background.png);
 }
+
 body
 {
     background-color: #FF6200;
+    font-family: Dunkin;
+    color: #4D2308;
+    margin: 100px;
 }
 
 .menu-list
 {
     list-style-type: none;
+}
+
+.menu-part
+{
+    text-align: center;
 }
