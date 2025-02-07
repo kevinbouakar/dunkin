@@ -1,41 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
 <head>
-	<title>Dunkin' Lebanon • Home</title>
-	<link rel="stylesheet" href="/src/css/home.css">
-	<link rel="icon" type="image/ico" href="/assets/images/favicon.png">
+	<title>Dunkin' • Home</title>
+	<link rel="stylesheet" href="/src/css/style.css">
+	<link rel="icon" type="image/ico" href="/assets/images/dunkin-favicon.png">
 	<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
-
-	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 </head>
 <body>
-	<div>
-		<nav class="nav-bar">
-			<img class="DunkinLogo_V1" src="/assets/images/DunkinLogo.png" title="Dunkin'">
-			<button><a href="./menu.html">Menu</a></button>
-			<button><a href="./about.html">About Us</a></button>
-			<button><a href="./login.html">Log In</a></button>
+	<div class="navigation">
+		<nav>
+			<a class="navigation-logo-link" href="/src/html/home.html">
+				<img src="/assets/images/DunkinLogo.png" title="Dunkin'" class="navigation-logo">
+			</a><br><br>
+			<a class="navigation-links" href="./home.html">Home</a>
+			<a class="navigation-links" href="./menu.html">Menu</a>
+			<a class="navigation-links" href="./about.html">About Us</a>
+			<a class="navigation-links" href="./login.html">Log In</a>
 		</nav>
 	</div>
-	<hr>
 	<br>
 	<div class="mainquote">
 		<h1>
-			Welcome to your happy place, Kevin! 
+			Welcome to your happy place! 
 			<!-- add placeholder from javascript from where user logs in! -->
 		</h1>
 	</div>
-	<hr>
-	<div class="middle-part">
+	<div class="homePopularitems">
 		<h1>Our most popular items are here to make you smile!</h1>
 		<img class="img-display" src="/assets/menu/american.png" title="American Coffee">
 		<img class="img-display" src="/assets/menu/donut.png" title="Donuts">
 		<img class="img-display" src="/assets/menu/iced-latte.png" title="Iced Latte">
-		<p>Explore our full menu</p>
+		<p>
+			Explore our full <a href="/src/html/menu.html">Menu</a>
+		</p>
 	</div>
-	<hr>
-	<div class="footer-socials">
+	<div class="homeSpecialty">
+		<div>
+			<h2>Valentine's Day Latest Specialty: <br>Heart Beat Latte</h2>
+			<p>The Red Velvet Vanilla Latte is a luxurious blend of rich espresso, creamy steamed milk, and a hint of velvety red velvet flavor. It's perfectly accented with a touch of sweet vanilla, creating a comforting and indulgent treat for any time of day. Topped with a swirl of whipped cream, a heart shaped red cookie and dusting of red cocoa, it's as visually appealing as it is delicious.</p>
+		</div>
+		<img src="/assets/images/valentines.png" width="250px" class="homeSpecialtyImage"> 
+	</div>
+	<footer>
 		<div>
 			<address>
 			Michaca building Horsh Tabet Sin el Fil, <br>
@@ -43,9 +49,9 @@
 			P.O.Box 30,<br>
 			Beirut Lebanon
 			</address>
-			<img class="logov2" src="/assets/images/DunkinLogo_v2.jpg" title="Dunkin' Donuts">
+			<img class="logov2" src="/assets/images/DunkinLogo_v2-nobg.png" title="Dunkin' Donuts">
 			<div>
-				<nav class="socials-list">
+				<nav>
 					<a href="https://instagram.com/dunkinleb" target="_blank">
 						<i class="nf nf-fa-instagram" title="Instagram"></i>
 					</a>
@@ -58,7 +64,10 @@
 				</nav>
 			</div>
 		</div>
-		<p>Dunkin' 2019-2025 - All rights Reserved</p>
-	</div>
+	<p>Dunkin'&copy; 2025 - All Rights Reserved</p>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+<script src="/src/js/login.js"></script>
 </body>
 </html>

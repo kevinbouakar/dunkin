@@ -1,18 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="loginHtml">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="login.css">
-    <link rel="icon" type="icon/ico" href="/assets/images/favicon.png">
-    <title>Dunkin' Lebanon • Log In</title>
+    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="icon" type="image/ico" href="/assets/images/dunkin-favicon.png">
+    <title>Dunkin' • Log In</title>
 </head>
-    <body>
-    <div>
-        <label>Email</label>
-        <input type="email">
-        <input type="password">
+    <body class="loginBody">
+        <div class="navigation">
+            <nav>
+                <a class="navigation-logo-link" href="/src/html/home.html">
+                    <img src="/assets/images/DunkinLogo.png" title="Dunkin'" class="navigation-logo">
+                </a><br><br>
+                <a class="navigation-links" href="./home.html">Home</a>
+                <a class="navigation-links" href="./menu.html">Menu</a>
+                <a class="navigation-links" href="./about.html">About Us</a>
+                <a class="navigation-links" href="./login.html">Log In</a>
+            </nav>
+        </div>
+    <br>
+    <div class="loginBox">
+        <div>
+            <p>Welcome back. Lets put a smile on your face!</p>
+        </div>
+        <form method="GET" onsubmit="return passwordMinLength();">
+                
+                <input class="loginInputBoxes" type="text" name="n" required="required" placeholder="First Name"><br>
+                <input class="loginInputBoxes" type="email" name="e" required="required" placeholder="name@domain.com"><br>
+                <input class="loginInputBoxes" type="password" name="p" required="required" id="passwordBox" placeholder="Password"><br>
+                <p id="errorbox"></p>
+
+                <input type="checkbox" id="rememberPwd">
+                <label for="rememberPwd">Remember Password</label><br>
+
+                <button type="submit" id="login">
+                    <a href="/src/html/home.html">Log In</a>
+                </button>
+                <h3>OR</h3>
+                <div>
+                    <button>Sign up with Google</button><br>
+                    <button>Sign up with Apple</button>
+                </div>
+            </form>
+            <script src="/src/js/login.js"></script>
     </div>
+    <footer>
+        <div>
+            <address>
+            Michaca building Horsh Tabet Sin el Fil, <br>
+            Hazmieh Lebanon,<br>
+            P.O.Box 30,<br>
+            Beirut Lebanon
+            </address>
+            <img class="logov2" src="/assets/images/DunkinLogo_v2-nobg.png" title="Dunkin' Donuts">
+            <div>
+                <nav>
+                    <a href="https://instagram.com/dunkinleb" target="_blank">
+                        <i class="nf nf-fa-instagram" title="Instagram"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/company/dunkin'-donuts-lebanon" target="_blank">
+                        <i class="nf nf-dev-linkedin" title="LinkedIn"></i>
+                    </a>
+                    <a href="mailto:info@ddlebanon.com">
+                        <i class="nf nf-cod-mail"></i>
+                    </a>
+                </nav>
+            </div>
+        </div>
+    <p>Dunkin'&copy; 2025 - All Rights Reserved</p>
+</footer>
     </body>
 </html>

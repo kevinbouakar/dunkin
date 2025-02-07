@@ -1,1 +1,4 @@
-grid = document.getElementsByClassName("mainquote");
+function homePopularitemsDescription()
+{
+    
+}

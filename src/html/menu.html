@@ -3,85 +3,137 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/src/css/menu.css">
-    <link rel="icon" type="icon/ico" href="/assets/images/favicon.png">
-    <title>Dunkin' Lebanon • Menu</title>
+    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="icon" type="image/ico" href="/assets/images/dunkin-favicon.png">
+    <title>Dunkin' • Menu</title>
 </head>
 <body>
+    <div class="navigation">
+		<nav>
+			<a class="navigation-logo-link" href="/src/html/home.html">
+				<img src="/assets/images/DunkinLogo.png" title="Dunkin'" class="navigation-logo">
+			</a><br><br>
+			<a class="navigation-links" href="./home.html">Home</a>
+			<a class="navigation-links" href="./menu.html">Menu</a>
+			<a class="navigation-links" href="./about.html">About Us</a>
+			<a class="navigation-links" href="./login.html">Log In</a>
+		</nav>
+	</div>
+    <hr>
+    <div class="intro">
+        <p>Treat yourself with our wide variety of items and goodies waiting for you!</p>
+    </div>
     <div>
-        <p>Explore our wide variety of items and goodies waiting for you!</p>
-    </div>
-    <ul class="menu-list">
-        <li>
+        <nav class="navigateMenuBar">
             <a href="#Part1">Donuts</a></li>
-        <li>Coffee</li>
-        <li>Iced Drinks</li>
-        <li>Hot Drinks</li>
-        <li>Blended Drinks</li>
-        <li>Other</li>
-    </ul>
-    <div class="menu-part">
-        <div class="donuts-section" id="Part1">
-            <h1>Donuts</h1>
-            <ul>
-                <li>Classic</li>
-                <li>Premium</li>
-                <li>Specialty</li>
-                <li>Munchkin</li>
-                <li>Coffee Roll</li>
-            </ul>
-        </div>
-        <div class="donuts-section" id="Part2">
-            <h1>Coffee</h1>
-            <ul>
-                <li>Classic</li>
-                <li>Premium</li>
-                <li>Specialty</li>
-                <li>Munchkin</li>
-                <li>Coffee Roll</li>
-            </ul>
-        </div>
-        <div class="donuts-section" id="Part3">
-            <h1>Iced Drinks</h1>
-            <ul>
-                <li>Classic</li>
-                <li>Premium</li>
-                <li>Specialty</li>
-                <li>Munchkin<
-                    /li>
-                <li>Coffee Roll</li>
-            </ul>
-        </div>
-        <div class="donuts-section" id="Part1">
-            <h1>Donuts</h1>
-            <ul>
-                <li>Classic</li>
-                <li>Premium</li>
-                <li>Specialty</li>
-                <li>Munchkin</li>
-                <li>Coffee Roll</li>
-            </ul>
-        </div>
-        <div class="donuts-section" id="Part1">
-            <h1>Donuts</h1>
-            <ul>
-                <li>Classic</li>
-                <li>Premium</li>
-                <li>Specialty</li>
-                <li>Munchkin</li>
-                <li>Coffee Roll</li>
-            </ul>
-        </div>
-        <div class="donuts-section" id="Part1">
-            <h1>Donuts</h1>
-            <ul>
-                <li>Classic</li>
-                <li>Premium</li>
-                <li>Specialty</li>
-                <li>Munchkin</li>
-                <li>Coffee Roll</li>
-            </ul>
-        </div>
+            <a href="#Part2">Coffee</a></li>
+            <a href="#Part3">Iced Drinks</a></li>
+            <a href="#Part4">Hot Drinks</a></li>
+            <a href="#Part5">Frozen Drinks</a></li>
+            <a href="#Part6">Other</a></li>
+        </nav>
     </div>
+    <div class="menu-part">
+        <div class="menuSection" id="Part1">
+            <h1>Donuts</h1>
+		    <img class="menuImageDisplay" src="/assets/menu/donut.png" title="Donuts">
+            <img class="menuImageDisplay" src="/assets/menu/munchkins.png" title="Munchkins">
+		    <img class="menuImageDisplay" src="/assets/menu/dozen.png" title="Dozen"><br>
+        </div>
+        <div class="menuSection" id="Part2">
+            <h1>Coffee</h1>
+            <img class="menuImageDisplay" src="/assets/menu/american.png" title="American Coffee">
+		    <img class="menuImageDisplay" src="/assets/menu/espresso.png" title="Espresso">
+            <img class="menuImageDisplay" src="/assets/menu/latte.png" title="Hot Latte">
+		    
+            <!-- <ul>
+                <li>Original Blend</li>
+                <li>Americano</li>
+                <li>Espresso</li>
+                <li>Dunkalatte</li>
+                <li>Dunkaccino</li>
+            </ul> -->
+        </div>
+        <div class="menuSection" id="Part3">
+            <h1>Iced Drinks</h1>
+            <img class="menuImageDisplay" src="/assets/menu/american.png" title="American Coffee">
+		    <img class="menuImageDisplay" src="/assets/menu/donut.png" title="Donuts">
+		    <img class="menuImageDisplay" src="/assets/menu/iced-latte.png" title="Iced Latte"><br>
+            
+            <!-- <ul>
+                <li>Iced Coffee Caramel</li>
+                <li>Iced Latte</li>
+                <li>Iced Latte Caramel</li>
+                <li>Iced Latte Mocha</li>
+                <li>Iced Latte Vanilla</li>
+                <li>Iced Matcha Latte</li>
+            </ul> -->
+        </div>
+        <div class="menuSection" id="Part1">
+            <h1>Hot Drinks</h1>
+            <img class="menuImageDisplay" src="/assets/menu/american.png" title="American Coffee">
+		    <img class="menuImageDisplay" src="/assets/menu/donut.png" title="Donuts">
+		    <img class="menuImageDisplay" src="/assets/menu/iced-latte.png" title="Iced Latte"><br>
+           
+            <!-- <ul>
+                <li>Hot Chocolate</li>
+                <li>Tea</li>
+                <li>Matcha Latte</li>
+            </ul> -->
+        </div>
+        <div class="menuSection" id="Part1">
+            <h1>Frozen Drinks</h1>
+            <img class="menuImageDisplay" src="/assets/menu/american.png" title="American Coffee">
+		    <img class="menuImageDisplay" src="/assets/menu/donut.png" title="Donuts">
+		    <img class="menuImageDisplay" src="/assets/menu/iced-latte.png" title="Iced Latte"><br>
+            
+            <!-- <ul>
+                <li>Chocaccino</li>
+                <li>Cheesecake</li>
+                <li>Kitkat</li>
+                <li>Dark Chocolate Frappe</li>
+                <li>Frozen Yogurt</li>
+                <li>Sweet & Salty Frappe</li>
+            </ul> -->
+        </div>
+        <div class="menuSection" id="Part6">
+            <h1>Other</h1>
+            <img class="menuImageDisplay" src="/assets/menu/american.png" title="American Coffee">
+		    <img class="menuImageDisplay" src="/assets/menu/donut.png" title="Donuts">
+		    <img class="menuImageDisplay" src="/assets/menu/iced-latte.png" title="Iced Latte"><br>
+            
+            <!-- <ul>
+                <li>Water</li>
+                <li>Soft Drink</li>
+                <li>Fresh Juice</li>
+                <li>Sparkling Water</li>
+            </ul> -->
+        </div>
+        
+        <footer>
+        <div>
+            <address>
+            Michaca building Horsh Tabet Sin el Fil, <br>
+            Hazmieh Lebanon,<br>
+            P.O.Box 30,<br>
+            Beirut Lebanon
+            </address>
+            <img class="logov2" src="/assets/images/DunkinLogo_v2-nobg.png" title="Dunkin' Donuts">
+            <div>
+                <nav>
+                    <a href="https://instagram.com/dunkinleb" target="_blank">
+                        <i class="nf nf-fa-instagram" title="Instagram"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/company/dunkin'-donuts-lebanon" target="_blank">
+                        <i class="nf nf-dev-linkedin" title="LinkedIn"></i>
+                    </a>
+                    <a href="mailto:info@ddlebanon.com">
+                        <i class="nf nf-cod-mail"></i>
+                    </a>
+                </nav>
+            </div>
+        </div>
+    <p>Dunkin'&copy; 2025 - All Rights Reserved</p>
+</footer>
 </body>
 </html>
