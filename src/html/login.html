@@ -26,21 +26,21 @@
         </div>
         <form method="GET" onsubmit="return passwordMinLength();">
                 
-                <input class="loginInputBoxes" type="text" name="n" required="required" placeholder="First Name"><br>
-                <input class="loginInputBoxes" type="email" name="e" required="required" placeholder="name@domain.com"><br>
+                <input class="loginInputBoxes" type="text" name="n" required="required" id="firstnameBox" placeholder="First Name"><br>
+                <input class="loginInputBoxes" type="email" name="e" required="required"  placeholder="name@domain.com"><br>
                 <input class="loginInputBoxes" type="password" name="p" required="required" id="passwordBox" placeholder="Password"><br>
                 <p id="errorbox"></p>
 
                 <input type="checkbox" id="rememberPwd">
-                <label for="rememberPwd">Remember Password</label><br>
+                <label for="rememberPwd" >Remember Password</label><br>
 
                 <button type="submit" id="login">
                     <a href="/src/html/home.html">Log In</a>
                 </button>
                 <h3>OR</h3>
                 <div>
-                    <button>Sign up with Google</button><br>
-                    <button>Sign up with Apple</button>
+                    <a><i class="nf nf-dev-google"></i> Sign up with Google</a><br>
+                    <button><i class="nf nf-dev-apple"></i>Sign up with Apple</button>
                 </div>
             </form>
             <script src="/src/js/login.js"></script>

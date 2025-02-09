@@ -9,6 +9,8 @@ Some of the information and content used in this repository are from the followi
 - [Dunkin Leb](https://ddlebanon.com).
 - [Dunkin' Official](https://dunkindonuts.com/).
 - [Nerdfonts Icons](https://nerdfonts.com).
+- https://uiverse.io
+- https://neumorphism.io - Soft UI
 
 ### Color Scheme
 

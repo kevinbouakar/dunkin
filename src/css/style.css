@@ -58,6 +58,11 @@ footer i:hover
     color: #FF6200;
     transition: color 0.5s;
 }
+span
+{
+    font-family: Dunkin;
+    font-style: italic;
+}
 
 .navigation
 {
@@ -231,6 +236,32 @@ footer i:hover
     margin-right: 40px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.aboutFlexbox
+{   
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.aboutImages
+{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin: 25px;
+    height: 320px;
+    width: 320px;
+}
+.aboutImages:hover
+{
+    height: 280px;
+    width: 280px;
+    transition: 0.8s;
+}
+#aboutEnding
+{
+    text-align: center;
+}
 
 .loginHtml
 {
@@ -248,24 +279,37 @@ footer i:hover
 {
     text-align: center;
     border: 5px solid #FF006B;
+    /* border-radius: 15px; */
     border-radius: 15px;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 60px #a4a4a4,
+                -20px -20px 60px #ffffff;
     margin-left: 200px;
     margin-right: 200px;
     margin-bottom: 50px;
-    box-shadow: 5px 5px rgba(0, 0, 0, 0.4);
 }
 
-.loginInputBoxes
-{
-    border: 2px solid #FF6200;
-    border-radius: 8px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 5px;
-    margin: 2px;
 
+
+.loginInputBoxes {
+    margin-top: 1rem;
+    border-radius: 10px;
+    outline: 2px solid #FF006B;
+    color: red;
+    border: 0;
+    font-family: "Segoe UI", sans-serif;
+    background-color: #d6f1ff;
+    outline-offset: 3px;
+    padding: 10px 12.5px;
+    transition: all 0.2s ease;
+    width: 250px;
+  }
+  
+  .loginInputBoxes:hover {
+    background-color: #fff;
+  }
+  
+  .loginInputBoxes:focus {
+    outline-offset: -6px;
+    background-color: #d6f1ff;
 }
-
-/* .loginInputBoxes:hover
-{
-    
-} */
