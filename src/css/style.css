@@ -116,12 +116,14 @@ span
     width: 350px;
     height: 350px;
     display: flexbox;
+    transition: 0.3s;
 }
 .img-display:hover
 {
-    width: 375px;
-    height: 375px;
-    transition: ease-in-out 0.5s;
+    scale: (1.2);
+    width: 325px;
+    height: 325px;
+    transition: ease-in-out 0.3s;
 
 }
 .homeSpecialty
@@ -251,16 +253,14 @@ span
     margin: 25px;
     height: 320px;
     width: 320px;
+    transition: ease-in-out 0.3s; 
 }
 .aboutImages:hover
 {
-    height: 280px;
-    width: 280px;
-    transition: 0.8s;
-}
-.aboutImages
-{
-    
+    scale: 0.2s;
+    height: 300px;
+    width: 300px;
+    transition: ease-in-out 0.3s;
 }
 
 #aboutEnding
