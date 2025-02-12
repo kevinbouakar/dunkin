@@ -28,9 +28,9 @@
                 
                 <input class="loginInputBoxes" type="text" name="n" required="required" id="firstnameBox" placeholder="First Name"><br>
                 <input class="loginInputBoxes" type="email" name="e" required="required"  placeholder="name@domain.com"><br>
-                <input class="loginInputBoxes" type="password" name="p" required="required" id="passwordBox" placeholder="Password"><br>
+                <input class="loginInputBoxes" type="password" name="p" required="required" id="passwordBox" placeholder="Password" oninput="return passwordMinLength();"><br>
                 <p id="errorbox"></p>
-
+                
                 <input type="checkbox" id="rememberPwd">
                 <label for="rememberPwd" >Remember Password</label><br>
 

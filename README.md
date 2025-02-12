@@ -17,7 +17,7 @@ Some of the information and content used in this repository are from the followi
 - Orange: #FF6200
 - Pink: #FF006B
 - Brown: #4D2308
-= White: #FFFFFF
+- White: #FFFFFF
 
 #### Font
 

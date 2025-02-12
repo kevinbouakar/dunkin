@@ -157,17 +157,22 @@ span
 }
 .homePopularitems a
 {
-    border: 2px;
-    border-radius: 12px;
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 4px;
     margin: 10px;
     text-decoration: none;
-    color: #FF006B;
+    color: white;
+    background-color: #FF6200;
+    transition: 0.3s
     
 }
 .homePopularitems a:hover
 {
-    color: white;
+    color: #4D2308;
+    border: 2px solid ;
     background-color: #FF006B;
+    transition: ease-in-out 0.3s;
 }
 
 .logov2
@@ -202,11 +207,12 @@ span
     padding-right: 20px;
     padding-left: 20px;
     color: white;
+    transition: 0.3s;
 }
 .navigateMenuBar a:hover
 {
     color: #4D2308;
-    transition: color 0.3s;
+    transition: ease-in-out 0.3s;
 }
 
 .menuSection
@@ -221,16 +227,28 @@ span
     display: flexbox;
     flex-direction: row; 
     flex-wrap: wrap;
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 25px;
-    margin-left: 10px;
-    margin-bottom: 10px;
+    margin: 10px;
+    background-color: white;
+
+}
+.menuItemdisplay
+{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
 }
 
-.menu_html
+.menuItemGrid
 {
-    background-image: url(/assets/images/background.png);
+    border: 2px solid #FF006B;
+    border-radius: 25px;
+    background-color: #FF6200;
+    margin: 10px;
 }
+
+
 
 .aboutText
 {
