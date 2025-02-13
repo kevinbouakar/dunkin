@@ -1,4 +1,0 @@
-function viewDetails()
-{
-    document.getElementById("") = 
-}

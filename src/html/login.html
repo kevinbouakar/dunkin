@@ -24,24 +24,19 @@
         <div>
             <p>Welcome back. Lets put a smile on your face!</p>
         </div>
-        <form method="GET" onsubmit="return passwordMinLength();">
+        <form method="GET" onsubmit="return formValidation();">
                 
-                <input class="loginInputBoxes" type="text" name="n" required="required" id="firstnameBox" placeholder="First Name"><br>
-                <input class="loginInputBoxes" type="email" name="e" required="required"  placeholder="name@domain.com"><br>
+                <input class="loginInputBoxes" type="text" name="n" required="required" id="firstnameBox" placeholder="First Name" onforminput="return newWelcomeTitle();"><br>
+                <input class="loginInputBoxes" type="email" name="e" required="required" id="emailBox" placeholder="name@domain.com"><br>
                 <input class="loginInputBoxes" type="password" name="p" required="required" id="passwordBox" placeholder="Password" oninput="return passwordMinLength();"><br>
                 <p id="errorbox"></p>
                 
                 <input type="checkbox" id="rememberPwd">
-                <label for="rememberPwd" >Remember Password</label><br>
+                <label for="rememberPwd">Remember Password</label><br>
 
                 <button type="submit" id="login">
                     <a href="/src/html/home.html">Log In</a>
                 </button>
-                <h3>OR</h3>
-                <div>
-                    <a><i class="nf nf-dev-google"></i> Sign up with Google</a><br>
-                    <button><i class="nf nf-dev-apple"></i>Sign up with Apple</button>
-                </div>
             </form>
             <script src="/src/js/login.js"></script>
     </div>

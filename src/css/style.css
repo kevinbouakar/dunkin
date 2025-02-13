@@ -43,9 +43,9 @@ i
 footer
 {   
     text-align: center;
-    background-color: rgb(247, 247, 210);
+    background-color: rgb(255, 156, 202);
+    /* background-color: rgb(247, 247, 210); */
     padding: 20px;
-    
 }
 footer a
 {   
@@ -179,7 +179,6 @@ span
 {
     float: center;
     margin: 20px;
-    /** When you add more pixels it comes closer to the center!! */
 }
 
 .socials-list
@@ -193,7 +192,8 @@ span
 
 .intro
 {
-    margin-left: 30px;
+    text-align: center;
+    margin: 30px;
 }
 .navigateMenuBar
 {
@@ -218,7 +218,7 @@ span
 .menuSection
 {
     text-align: center;
-    
+    margin: 20px;
 }
 .menuImageDisplay
 {
@@ -229,9 +229,17 @@ span
     flex-wrap: wrap;
     border: 2px solid white;
     border-radius: 25px;
-    margin: 10px;
+    margin: 15px;
     background-color: white;
+    transition: ease-in-out 0.3s;
+}
 
+.menuImageDisplay:hover
+{
+    scale: 0.95;
+    width: 240px;
+    height: 240px;
+    transition: ease-in-out 0.3s;
 }
 .menuItemdisplay
 {
@@ -242,7 +250,9 @@ span
 
 .menuItemGrid
 {
-    border: 2px solid #FF006B;
+    font-family:Cambria;
+    font-size: 120%;
+    border: 2px solid #FF6200;
     border-radius: 25px;
     background-color: #FF6200;
     margin: 10px;
@@ -272,6 +282,7 @@ span
     height: 320px;
     width: 320px;
     transition: ease-in-out 0.3s; 
+    border-radius: 7px;
 }
 .aboutImages:hover
 {
@@ -329,7 +340,7 @@ span
   }
   
   .loginInputBoxes:hover {
-    background-color: #fff;
+    background-color: #ffffff;
   }
   
   .loginInputBoxes:focus {
