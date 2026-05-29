@@ -2,7 +2,7 @@
 @font-face 
 {
     font-family: Dunkin;
-    src: url(/assets/font/Dunkin.otf);
+    src: url(../../assets/font/Dunkin.otf);
 }
 
 /* 
@@ -13,7 +13,7 @@ Brown: #4D2308
 
 html
 {
-    background-image: url(/assets/images/background.png);
+    background-image: url(../../assets/images/background.png);
     
 }
 
@@ -299,7 +299,7 @@ span
 
 .loginHtml
 {
-    background-image: url(/assets/images/login-bg.png);
+    background-image: url(../../assets/images/login-bg.png);
 }
 .loginBody
 {
